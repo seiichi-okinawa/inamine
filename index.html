@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <title>麺や　はぐれ雲</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
 <body>
     <header>
      <div class="container">
       <div class="header-left">
           <div class="header-right">
-            <div class="login">いらしゃい</div>
+            <div class="login">Welcome To Home!</div>
       </div>
      </div>
     </header>
@@ -23,17 +24,18 @@
       <div class="container">
         <h1>麺やはぐれ雲.<br>RAMEN TO BE CREATIVE.</h1>
         <h2>坦々麺一品のみのサービスといたします。<br>厳選された素材、県内で唯一無二の坦々麺麺でございます。至福の一杯をご賞味あれ。</h2>
-        <div class="btn signup">初めての方はこちら</div>
+        <div class="btn signup signup-show">初めての方はこちら</div>
         <p>or</p>
-        <div class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</div>
-      <div class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</div>
+        <a href="https://www.facebook.com/MENYAHAGUREGUMO/"><div class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</div></a>
+      <a href="https://twitter.com/ComHaguregumo"><div class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</div></a>
     </div>
   </div>
   <div class="lesson-wrapper">
     <div class="container">
       <div class="heading">
         <h2>メニュー</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScra_vIsZeuhantnUjbHbyYfiJrOJHcDmuGg&usqp=CAU">
+         <p>濃厚坦担麺</p>
+        <img src="https://kumanchu.com/wp-content/uploads/2019-12-20-19.11.28-min.jpg">
       </div>
       </div>
       </div>
@@ -55,6 +57,29 @@
             </div>
             <div class="col l4 s12 hide-on-med-and-down">
               <h4 class="center">予約する</h4>
+               <span class="btn message signup-show">さっそく押してみる</span>
+               <footer>
+                 <div class="container">
+                   <img src="https://kumanchu.com/wp-content/uploads/2019-12-20-19.03.13-min.jpg">
+                   <p>We are waitng for you!!</p>
+                 </div>
+               </footer>
+               <div class="signup-modal-wrapper" id="signup-modal">
+                <div class="modal">
+                  <div id="close-modal">
+                    <i class="fa fa-2x fa-times"></i>
+                  </div>
+                  <div id="signup-form">
+                    <h2>E-mailで予約</h2>
+                    <form action="#">
+                      <input class="form-control" type="text" placeholder="メールアドレス">
+                      <input class="form-control" type="password" placeholder="パスワード">
+                      <div id="submit-btn">予約登録</div>            
+                    </form>
+                    <script src="script.js"></script>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
