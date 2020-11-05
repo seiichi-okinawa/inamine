@@ -159,8 +159,8 @@ footer p {
 footer {
   padding-top: 30px;
 }
-
-.signup-modal-wrpper {
+ /*モーダル*/
+.signup-modal-wrapper {
   position: fixed;
   top: 0;
   right: 0;
@@ -172,13 +172,13 @@ footer {
 }
 
 .modal {
-  position: obsolute;
+  position: absolute;
   top: 20%;
   left: 34%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
-  border-radius: 10px;
-  width: 450px;
+  padding: 100px 0px 100px;
+  border-radius: 100px;
+  width: 500px;
   height: auto;
   text-align: center;
 }
